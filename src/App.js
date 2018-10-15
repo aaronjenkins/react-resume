@@ -5,6 +5,7 @@ import data from './resume.json'
 
 const Email = require('./components/email');
 const Name = require('./components/name');
+const List = require('./components/list');
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <Name name={data.basics.name}/>
         <img src={logo} className="App-logo" alt="logo" />
         <Email email={data.basics.email} />
+        <List name='Languages' list={data.languages} />
         </header>
       </div>
     );
