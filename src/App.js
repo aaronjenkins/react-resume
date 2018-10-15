@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './me.jpg';
 import './App.css';
 import data from './resume.json'
 
@@ -13,13 +13,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
         <Name name={data.basics.name}/>
-
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-          </p>
-          <p>
-            <Email email={data.basics.email} />
-          </p>
+        <img src={logo} className="App-logo" alt="logo" />
+        <Email email={data.basics.email} />
         </header>
       </div>
     );
