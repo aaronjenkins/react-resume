@@ -1,0 +1,127 @@
+{
+    "basics": {
+      "name": "Aaron Jenkins",
+      "label": "Software Developer",
+      "email": "aaron@aaronjenkins.me",
+      "summary": "Software Developer in Test with 4 years of experience in HCM Software Industry looking to leverage proven leadership, quality ssurance, and programming skills",
+      "location": "Cincinnati, OH"
+    },
+    "work": [
+      {
+        "company": "Paycor",
+        "position": "Software Developer in Test II",
+        "website": "https://www.paycor.com/",
+        "startDate": "Sept 2017",
+        "endDate": null,
+        "highlights": [
+          "Moved to new team to rewrite legacy applications in .Net Core framework to increase application stability, usability, and scale-ability",
+          "Created new Automation framework to run on .Net Core framework",
+          "Developed new application for Dev Ops team to check application health in test and production environments",
+          "Conducted interviews with potential candidates to determine technical experience"
+        ]
+      },
+      {
+        "company": "Paycor",
+        "position": "Software Developer in Test II",
+        "website": "https://www.paycor.com/",
+        "startDate": "Apr 2015",
+        "endDate": "Sept 2017",
+        "highlights": [
+          "Moved to new team to rewrite legacy applications in .Net Core framework to increase application stability, usability, and scale-ability",
+          "Created new Automation framework to run on .Net Core framework",
+          "Developed new application for Dev Ops team to check application health in test and production environments",
+          "Conducted interviews with potential candidates to determine technical experience"
+        ]
+      },
+      {
+        "company": "Ascendum Solutions",
+        "position": "QA Consultant",
+        "website": "https://ascendum.com/",
+        "startDate": "Aug 2014",
+        "endDate": "Apr 2015",
+        "highlights": [
+          "Interpreted business requirements to write comprehensive software tests",
+          "Executed software tests to find defects and reported them to the\ndevelopment members and business members of Agile team",
+          "Wrote and Executed automated software tests",
+          "Lead Scrum ceremonies multiple times per week"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Indiana University",
+        "area": "Informatics",
+        "startDate": "Aug 2009",
+        "endDate": "May 2014",
+        "degree": "Bachelor of Science in Informatics",
+        "summary": "<SUMMARY>",
+        "Minors": [
+          "Business",
+          "Marketing"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "name": "C#"
+      },
+      {
+        "name": "Java"
+      },
+      {
+        "name": "Javascript"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "SQL"
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Docker"
+      },
+      {
+        "name": "Git"
+      },
+      {
+        "name": "NUnit"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "Selenium"
+      },
+      {
+        "name": "XUnit"
+      }
+    ],
+    "Tools": [
+      {
+        "name": "Jira"
+      },
+      {
+        "name": "Microsoft Office"
+      },
+      {
+        "name": "Microsoft TFS"
+      },
+      {
+        "name": "Postman"
+      },
+      {
+        "name": "Saucelabs"
+      },
+      {
+        "name": "Team City"
+      },
+      {
+        "name": "Visual Studio"
+      },
+      {
+        "name": "Visual Studio Code"
+      }
+    ]
+  }
