@@ -25,6 +25,22 @@ img {
   border-radius: 50%;
 }
 
+.right {
+  float: right;
+  width: 300px;
+  padding: 20px;
+}
+
+.left {
+  float: left;
+  width: 300px;
+  padding: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

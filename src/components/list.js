@@ -5,8 +5,8 @@ const List = ({name, list}) => {
 
     return (
         <React.Fragment>
-        <h2>{name}</h2>
-            <ul>
+        <h4>{name}</h4>
+            <ul className='right'>
                 {list.map(function(listValue){
                     return <li>{listValue.name}</li>;
                 })}
