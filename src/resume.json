@@ -27,10 +27,12 @@
         "startDate": "Apr 2015",
         "endDate": "Sept 2017",
         "highlights": [
-          "Moved to new team to rewrite legacy applications in .Net Core framework to increase application stability, usability, and scale-ability",
-          "Created new Automation framework to run on .Net Core framework",
-          "Developed new application for Dev Ops team to check application health in test and production environments",
-          "Conducted interviews with potential candidates to determine technical experience"
+          "Lead team of 4 QA Engineers and in Manual and Automated testing",
+          "Developed new frameworks for API, UI, and Database testing",
+          "Onboarded and Trained 7 QA Resources",
+          "Worked with Dev Ops team to implement new strategies to increase stability and\nspeed of integration builds",
+          "Conducted presentations to QA department on how to implement new technology\nand new processes for Manual and Automated testing",
+          "Contributed to feature requirements gathering and writing to ensure ease of testing "
         ]
       },
       {
