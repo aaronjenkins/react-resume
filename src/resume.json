@@ -27,12 +27,12 @@
         "startDate": "Apr 2015",
         "endDate": "Sept 2017",
         "highlights": [
-          "Lead team of 4 QA Engineers and in Manual and Automated testing",
+          "Lead team of 4 QA Engineers in Manual and Automated testing",
           "Developed new frameworks for API, UI, and Database testing",
-          "Onboarded and Trained 7 QA Resources",
-          "Worked with Dev Ops team to implement new strategies to increase stability and\nspeed of integration builds",
-          "Conducted presentations to QA department on how to implement new technology\nand new processes for Manual and Automated testing",
-          "Contributed to feature requirements gathering and writing to ensure ease of testing "
+          "Onboarded and trained 7 QA Resources",
+          "Worked with Dev Ops team to implement new strategies to increase stability and speed of integration builds",
+          "Conducted presentations to QA department on how to implement new technology and new processes for Manual and Automated testing",
+          "Contributed to feature requirements gathering and writing to ensure ease of testing"
         ]
       },
       {
@@ -43,9 +43,9 @@
         "endDate": "Apr 2015",
         "highlights": [
           "Interpreted business requirements to write comprehensive software tests",
-          "Executed software tests to find defects and reported them to the\ndevelopment members and business members of Agile team",
+          "Executed software tests to find defects and reported them to the development members and business members of Agile team",
           "Wrote and Executed automated software tests",
-          "Lead Scrum ceremonies multiple times per week"
+          "Lead scrum ceremonies (Stand-Up, Sprint Review, Retro)"
         ]
       }
     ],
