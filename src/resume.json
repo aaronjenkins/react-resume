@@ -12,7 +12,7 @@
         "position": "Software Developer in Test II",
         "website": "https://www.paycor.com/",
         "startDate": "Sept 2017",
-        "endDate": null,
+        "endDate": "Present",
         "highlights": [
           "Moved to new team to rewrite legacy applications in .Net Core framework to increase application stability, usability, and scale-ability",
           "Created new Automation framework to run on .Net Core framework",
@@ -22,7 +22,7 @@
       },
       {
         "company": "Paycor",
-        "position": "Software Developer in Test II",
+        "position": "Software Developer in Test",
         "website": "https://www.paycor.com/",
         "startDate": "Apr 2015",
         "endDate": "Sept 2017",
@@ -98,7 +98,7 @@
         "name": "XUnit"
       }
     ],
-    "Tools": [
+    "tools": [
       {
         "name": "Jira"
       },

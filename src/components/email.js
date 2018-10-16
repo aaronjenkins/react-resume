@@ -1,13 +1,22 @@
+import { FaEnvelope } from 'react-icons/fa';
+
 const React = require('react');
 
-
-const Email = ({email}) => {
-
-    return (
-        <a
-        className = 'App-link'
-        href={`mailto:${email}`}>
-        {email}
-        </a>);
-};
-module.exports = Email;
+export class Email extends React.Component {
+    constructor(props){
+        super();
+    }
+    render() {
+        return (
+            <React.Fragment>
+                <span>
+                    <FaEnvelope className = 'react-icons'/>
+                    <a
+                    className = 'App-link'
+                    href={`mailto:${this.props.email}`}>
+                    {this.props.email}
+                    </a>
+                </span>
+            </React.Fragment>);
+    }
+}

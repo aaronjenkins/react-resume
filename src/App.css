@@ -25,20 +25,13 @@ img {
   border-radius: 50%;
 }
 
-.right {
-  float: right;
-  width: 300px;
-  padding: 20px;
+ul{ 
+  list-style-type: none; 
 }
 
-.left {
-  float: left;
-  width: 300px;
-  padding: 50px;
-}
-
-.center {
-  text-align: center;
+.react-icons {
+  vertical-align: middle;
+  padding: 5px;
 }
 
 @keyframes App-logo-spin {

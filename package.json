@@ -5,7 +5,10 @@
   "dependencies": {
     "create-react-class": "^15.6.3",
     "react": "^16.5.2",
+    "react-bootstrap-table": "^4.3.1",
+    "react-cellblock": "^3.0.4",
     "react-dom": "^16.5.2",
+    "react-icons": "^3.2.0",
     "react-scripts": "2.0.5"
   },
   "scripts": {
