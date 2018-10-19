@@ -8,8 +8,8 @@ import { FaCode } from 'react-icons/fa';
 import { FaToolbox } from 'react-icons/fa';
 import {Email} from './components/email';
 import {Work} from './components/work';
-
-
+import {LinkedIn} from './components/linkedin';
+import { GitHub } from './components/github';
 
 const Name = require('./components/name');
 const List = require('./components/list');
@@ -23,6 +23,8 @@ class App extends Component {
           <Name name={data.basics.name}/>
           <img src={logo} className="App-logo" alt="logo" />
           <Email email={data.basics.email} />
+          <GitHub url={data.basics.github}/> 
+          <LinkedIn url={data.basics.linkedIn} />
         </header>
       </div>
       <Grid>
