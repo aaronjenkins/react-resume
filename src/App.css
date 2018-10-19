@@ -8,7 +8,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +32,13 @@ ul{
 .react-icons {
   vertical-align: middle;
   padding: 5px;
+}
+
+.react-icons-clickable {
+  vertical-align: middle;
+  padding: 5px;
+  color: #f7fcfd;
+  font-size: 100px;
 }
 
 @keyframes App-logo-spin {
