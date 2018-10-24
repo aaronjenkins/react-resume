@@ -1,7 +1,9 @@
 import { FaBriefcase } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { FaDotCircle } from "react-icons/fa";
-import { CardStack, Card } from "react-cardstack";
+import { Card } from "./card";
+import { CardStack } from "./cardstack";
+
 
 const React = require("react");
 
