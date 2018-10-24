@@ -10,6 +10,7 @@
     },
     "work": [
       {
+        "color":"#2980B9",
         "company": "Paycor",
         "position": "Software Developer in Test II",
         "website": "https://www.paycor.com/",
@@ -23,6 +24,7 @@
         ]
       },
       {
+        "color":"#27AE60",
         "company": "Paycor",
         "position": "Software Developer in Test",
         "website": "https://www.paycor.com/",
@@ -38,6 +40,7 @@
         ]
       },
       {
+        "color":"#9B27AE",
         "company": "Ascendum Solutions",
         "position": "QA Consultant",
         "website": "https://ascendum.com/",
