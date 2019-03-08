@@ -22,6 +22,6 @@ pipelines:
               REMOTE_PATH: '/www'
               LOCAL_PATH: '/build'
               # SSH_KEY: '<string>' # Optional.
-              # EXTRA_ARGS: '<string>' # Optional.
+              EXTRA_ARGS: '-P 21' # Optional.
               # DEBUG: '<boolean>' # Optional.
 
