@@ -1,9 +1,7 @@
 import { FaBriefcase } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { FaDotCircle } from "react-icons/fa";
-import { Card } from "./card";
-import { CardStack } from "./cardstack";
-
+import Collapsible from 'react-collapsible';
 
 const React = require("react");
 
@@ -14,11 +12,12 @@ export class Work extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <CardStack>
+
           {this.props.work.map(function(listValue) {
             return (
-                <Card background={listValue.color}>
-                  <ul>
+              <Collapsible trigger = {listValue.company} >
+                  <p>
+                    <ul>
                     <FaBriefcase className="App-icons" />
                     <a href={listValue.website}>{listValue.company}</a>
                     <ul>
@@ -43,10 +42,11 @@ export class Work extends React.Component {
                       })}
                     </ul>
                   </ul>
-                </Card>
+                  </p>
+                </Collapsible>
             );
           })}
-        </CardStack>
+
       </React.Fragment>
     );
   }
