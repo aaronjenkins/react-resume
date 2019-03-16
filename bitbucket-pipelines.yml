@@ -18,7 +18,7 @@ pipelines:
           - pipe: atlassian/sftp-deploy:0.3.1
             variables:
               USER: 'k6dh25l255cv'
-              SERVER: 'aaronjenkins.me'
+              SERVER: 'ftp.aaronjenkins.me'
               REMOTE_PATH: '/www'
               LOCAL_PATH: '/build'
               # SSH_KEY: '<string>' # Optional.
