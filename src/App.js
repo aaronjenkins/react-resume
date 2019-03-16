@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "./me.jpg";
-import "./App.css";
+import "./App.scss";
 import data from "./resume.json";
 import { Grid, Row, Column } from "react-cellblock";
 import { FaDraftingCompass } from "react-icons/fa";
