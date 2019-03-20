@@ -52,7 +52,8 @@ class App extends Component {
             </Column>
           </Row>
           <Row>
-          <FaBriefcase className="App-icons-large" /><Name name={"Work History"} />
+          <FaBriefcase className="App-icons-large" />
+            <span class='Title-With-Icon'>Work History</span>
             <WorkAccordion work={data.work}  />
           </Row>
         </Grid>
