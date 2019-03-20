@@ -19,6 +19,9 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
+        <Grid className="App-header">
+          <Row>
+            <Column width="3/3">
         <div className="App">
           <header className="App-header">
             <Name name={data.basics.name} />
@@ -30,6 +33,9 @@ class App extends Component {
             </div>
           </header>
         </div>
+        </Column>
+        </Row>
+        </Grid>
         <Grid>
           <Row>
             <Column width="1/3">
