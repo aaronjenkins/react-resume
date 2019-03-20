@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 
 .App-logo {
@@ -16,6 +17,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {
@@ -38,10 +40,6 @@ ul {
   font-size: 100px;
 }
 
-.Collapsible {
-  background-color: #282c34;
-}
-
 $cAccent: #3978EF;
 $cBlack: #121212;
 $cGray: #333;
@@ -50,6 +48,7 @@ $cLightGray: rgba(#000, 0.1);
 html {
   font-size: 16px;
   height: 100%;
+  width: 100%;
 }
   
 body {
@@ -67,7 +66,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff;
-  max-width: 30rem;
+  //max-width: 30rem;
   border-radius: 0.4rem;
   overflow: hidden;
   box-shadow:
@@ -157,7 +156,7 @@ body {
   &__paragraph{
     margin: 0;
     font-size: 1rem;
-    color: $cGray;
+    //color: $cGray;
     font-weight: 300;
     line-height: 1.3;
   }

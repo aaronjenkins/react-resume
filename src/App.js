@@ -7,9 +7,10 @@ import { FaDraftingCompass } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import { FaToolbox } from "react-icons/fa";
 import { Email } from "./components/email";
-import { Work } from "./components/work";
 import { LinkedIn } from "./components/linkedin";
 import { GitHub } from "./components/github";
+import { WorkAccordion } from "./components/workaccordion.js"
+import { FaBriefcase } from "react-icons/fa";
 
 const Name = require("./components/name");
 const List = require("./components/list");
@@ -45,10 +46,8 @@ class App extends Component {
             </Column>
           </Row>
           <Row>
-            <Name name={"Work History"} />
-            <Column>
-              <Work work={data.work} />
-            </Column>
+          <FaBriefcase className="App-icons-large" /><Name name={"Work History"} />
+            <WorkAccordion work={data.work}  />
           </Row>
         </Grid>
       </React.Fragment>
