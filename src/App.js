@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import logo from "./me.jpg";
-import "./App.css";
+import "./App.scss";
 import data from "./resume.json";
 import { Grid, Row, Column } from "react-cellblock";
 import { FaDraftingCompass } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import { FaToolbox } from "react-icons/fa";
 import { Email } from "./components/email";
-import { Work } from "./components/work";
 import { LinkedIn } from "./components/linkedin";
 import { GitHub } from "./components/github";
+import { WorkAccordion } from "./components/workaccordion.js"
+import { FaBriefcase } from "react-icons/fa";
 
 const Name = require("./components/name");
 const List = require("./components/list");
@@ -18,6 +19,9 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
+        <Grid className="App-header">
+          <Row>
+            <Column width="3/3">
         <div className="App">
           <header className="App-header">
             <Name name={data.basics.name} />
@@ -29,6 +33,9 @@ class App extends Component {
             </div>
           </header>
         </div>
+        </Column>
+        </Row>
+        </Grid>
         <Grid>
           <Row>
             <Column width="1/3">
@@ -45,10 +52,9 @@ class App extends Component {
             </Column>
           </Row>
           <Row>
-            <Name name={"Work History"} />
-            <Column>
-              <Work work={data.work} />
-            </Column>
+          <FaBriefcase className="App-icons-large" />
+            <span class='Title-With-Icon'>Work History</span>
+            <WorkAccordion work={data.work}  />
           </Row>
         </Grid>
       </React.Fragment>
