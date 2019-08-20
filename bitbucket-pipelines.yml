@@ -15,13 +15,11 @@ pipelines:
         script: # Modify the commands below to build your repository.
           - npm install
           - npm test
-          - pipe: atlassian/sftp-deploy:0.3.1
+          - pipe: atlassian/ftp-deploy:0.2.1
             variables:
-              USER: 'bitbucket@aaronjenkins.me'
-              SERVER: 'aaronjenkins.me'
+              USER: $FTP_USERNAME
+              PASSWORD: $FTP_PASSWORD
+              SERVER: 'ftp://aaronjenkins.me'
               REMOTE_PATH: '/public_html'
               LOCAL_PATH: '/build'
-              # SSH_KEY: '<string>' # Optional.
-              EXTRA_ARGS: '-P 21' # Optional.
-              # DEBUG: '<boolean>' # Optional.
-
+              EXTRA_ARGS: '-P 21'
