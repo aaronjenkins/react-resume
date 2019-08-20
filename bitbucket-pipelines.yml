@@ -21,5 +21,4 @@ pipelines:
               PASSWORD: $FTP_PASSWORD
               SERVER: 'ftp://aaronjenkins.me'
               REMOTE_PATH: '/public_html'
-              LOCAL_PATH: 'build'
               EXTRA_ARGS: '-P 21'
