@@ -22,5 +22,5 @@ pipelines:
               PASSWORD: $FTP_PASSWORD
               SERVER: 'ftp://aaronjenkins.me'
               REMOTE_PATH: '/public_html'
-              LOCAL_PATH: '/build' 
+              LOCAL_PATH: '/opt/atlassian/pipelines/agent/build' 
               EXTRA_ARGS: '-P 21'
