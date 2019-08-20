@@ -19,6 +19,6 @@ pipelines:
             variables:
               USER: $FTP_USERNAME
               PASSWORD: $FTP_PASSWORD
-              SERVER: 'ftp://aaronjenkins.me'
+              SERVER: 'aaronjenkins.me'
               REMOTE_PATH: '/www'
               EXTRA_ARGS: '-P 21'
