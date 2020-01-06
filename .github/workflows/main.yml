@@ -6,16 +6,12 @@ on:
     - master
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
     - name: build
       run: npm build
-   
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
       with:
