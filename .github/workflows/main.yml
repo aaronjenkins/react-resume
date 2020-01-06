@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: build
-      run: npm build
+      run: npm run-script build
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
       with:
