@@ -1,16 +1,16 @@
-import React, { Component } from "react";
-import logo from "./me.jpg";
-import "./App.scss";
+import React, { Component } from "react"
+import logo from "./me.jpg"
+import "./App.scss"
 import data from "./resume.json";
-import { Grid, Row, Column } from "react-cellblock";
-import { FaDraftingCompass } from "react-icons/fa";
-import { FaCode } from "react-icons/fa";
-import { FaToolbox } from "react-icons/fa";
-import { Email } from "./components/email";
-import { LinkedIn } from "./components/linkedin";
-import { GitHub } from "./components/github";
+import { Grid, Row, Column } from "react-cellblock"
+import { FaDraftingCompass } from "react-icons/fa"
+import { FaCode } from "react-icons/fa"
+import { FaToolbox } from "react-icons/fa"
+import { Email } from "./components/email"
+import { LinkedIn } from "./components/linkedin"
+import { GitHub } from "./components/github"
 import { WorkAccordion } from "./components/workaccordion.js"
-import { FaBriefcase } from "react-icons/fa";
+import { FaBriefcase } from "react-icons/fa"
 
 const Name = require("./components/name");
 const List = require("./components/list");
@@ -38,7 +38,7 @@ class App extends Component {
         </Grid>
         <Grid>
           <Row>
-            <Column width="1/3">
+            <Column width="1/3" color="#fh00">
               <FaCode className="App-icons" />
               <List name="Languages" list={data.languages} />
             </Column>
