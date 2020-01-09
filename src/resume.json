@@ -183,6 +183,13 @@
             "url": "http://www.justsimply.recipes",
             "description": "A recipe website with all of my favorite recipes.",
             "githuburl": "https://github.com/aaronjenkins/justsimply.recipes"
+        },
+        {
+            "active": false,
+            "name": "Photo Blog",
+            "url": "http://www.aaronjenkins.me/",
+            "description": "My personal photoblog",
+            "githuburl": "https://github.com/aaronjenkins/justsimply.recipes"
         }
     ]
 }

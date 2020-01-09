@@ -3,6 +3,10 @@
     width: 100%;
 }
 
+.App-column{
+    //display: grid;
+}
+
 .App-logo {
     height: 30vmin;
     border-radius: 50%;
@@ -24,13 +28,18 @@
     color: #61dafb;
 }
 
-ul {
+.App-ul {
     list-style-type: none;
+}
+
+.App-list-title{    
+    display: inline-flex;
 }
 
 .App-icons {
     vertical-align: middle;
     padding: 5px;
+    display: inline-flex;
 }
 
 .App-icons-clickable {
@@ -44,14 +53,14 @@ ul {
     padding: 15px;
     font-size: 50px;
     vertical-align: middle;
+    display: inline-flex;
 
-    // position: relative;
-    // display:block;
 }
 
-.Title-With-Icon {
+.App-title-with-icon {
     font-size: 50px;
     vertical-align: middle;
+    padding: 20px;
 }
 
 $cAccent: #3978ef;
@@ -65,9 +74,6 @@ body {
         'Segoe UI Symbol';
         margin: 0;
         padding: 0;
-        // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-        //   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-        //   sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
 }
@@ -82,7 +88,6 @@ code {
     margin: 0;
     padding: 0;
     background-color: #d1d8e8;
-    //max-width: 30rem;
     border-radius: 0.4rem;
     overflow: hidden;
     box-shadow: 0 0 0.8rem 0.1rem rgba(darken($cAccent, 20%), 0.06),
@@ -90,7 +95,7 @@ code {
 
     &__item {
         & + & {
-            border-top: 1px solid $cLightGray;
+            border-top: 5px solid $cLightGray;
         }
     }
 }
@@ -100,7 +105,8 @@ code {
 
     &--opened {
         #{ $self }__icon {
-            transform: rotate(180deg);
+            transform: rotate(90deg);
+
         }
 
         #{ $self }__inner {
@@ -120,6 +126,7 @@ code {
         }
     }
 
+    
     &__line {
         display: block;
         padding: 0.8rem 1.2rem;
@@ -139,14 +146,12 @@ code {
     }
 
     &__icon {
-        width: 1.2rem;
-        height: 1.2rem;
+        width: 2rem;
+        height: 2rem;
         transition: transform 0.3s ease-in-out;
         background-size: contain;
         background-repeat: no-repeat;
-        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAQAAABIkb+zAAABGklEQVR4Ae3RAcZCQRiF4buDfwshBGi+2UQgcIGAVtpSIuS/KyilG+UTcbk6zIH3GQBm3mM6AAAAAAAAAACA+eqf/yZBXcV/2XeCVPYx1FXj/FjGUMd45AQp/1HHGGLZNL+e61jHnKDmv8652YT1IvPfE2LX/Sh27/ycsF60yT/lk58JYn6eU4MJccjnlAmZ/33i0OAH4jg9Qcw/5g9YJpS+m6n0xvzpCfVe+nn59S7kGyYo+YYJWz3fO+E2PaFs9XzPhMy/6fmWCXq+YUJs9HzrhLh+JsQmrnq+bYKeb52g53snXPR88wQ93z9Bz/dP0PP9E/R89wQ93zpBz7dO0POtE/R86wQ93zpBzzdP+MoHAAAAAAAAAADAExTnTW20AtjhAAAAAElFTkSuQmCC);
-        //opacity: 0.6;
-        color: white;
+        fill: whitesmoke;
     }
 
     &__inner {
@@ -167,12 +172,12 @@ code {
         transition-property: opacity, transform;
         transition-delay: 0.5s;
         padding: 0 1.2rem 1.2rem;
+        
     }
 
     &__paragraph {
         margin: 0;
         font-size: 1rem;
-        //color: $cGray;
         font-weight: 300;
         line-height: 1.3;
     }

@@ -11,6 +11,7 @@ import { LinkedIn } from "./components/linkedin"
 import { GitHub } from "./components/github"
 import { WorkAccordion } from "./components/workaccordion.js"
 import { FaBriefcase } from "react-icons/fa"
+import {FaEdit} from "react-icons/fa"
 
 const Name = require("./components/name");
 const List = require("./components/list");
@@ -38,22 +39,24 @@ class App extends Component {
         </Grid>
         <Grid>
           <Row>
-            <Column width="1/3" color="#fh00">
+            <Column width="1/3" className="App-column">
               <FaCode className="App-icons" />
               <List name="Languages" list={data.languages} />
             </Column>
-            <Column width="1/3">
+            <Column width="1/3" className="App-column">
               <FaDraftingCompass className="App-icons" />
               <List name="Technologies" list={data.technologies} />
             </Column>
-            <Column width="1/3">
+            <Column width="1/3" className="App-column">
               <FaToolbox className="App-icons" />
               <List name="Tools" list={data.tools} />
             </Column>
           </Row>
           <Row>
-          <FaBriefcase className="App-icons-large" />
-            <span class='Title-With-Icon'>Work History</span>
+            <span class='App-title-with-icon'><FaEdit className="App-icons-large" />Projects</span>
+          </Row>
+          <Row>
+            <span class='App-title-with-icon'> <FaBriefcase className="App-icons-large" />Work History</span>
             <WorkAccordion work={data.work}  />
           </Row>
         </Grid>

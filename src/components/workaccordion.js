@@ -1,5 +1,6 @@
 import { FaArrowRight } from 'react-icons/fa'
 import { FaDotCircle } from 'react-icons/fa'
+import {FaAngleRight} from 'react-icons/fa'
 const React = require('react')
 
 export class WorkAccordion extends React.Component {
@@ -58,7 +59,7 @@ class WorkAccordionItem extends React.Component {
                     <h3 {...{ className: 'accordion-item__title' }}>
                         {this.props.position}
                     </h3>
-                    <span {...{ className: 'accordion-item__icon' }} />
+                    <FaAngleRight className='accordion-item__icon' />
                 </div>
                 <div {...{ className: 'accordion-item__inner' }}>
                     <div {...{ className: 'accordion-item__content' }}>
