@@ -64,7 +64,7 @@ class WorkAccordionItem extends React.Component {
                 <div {...{ className: 'accordion-item__inner' }}>
                     <div {...{ className: 'accordion-item__content' }}>
                         <p {...{ className: 'accordion-item__paragraph' }}>
-                            <ul>
+                            <ul className="App-ul">
                                 <li>
                                     <a href={this.props.website}>
                                         {this.props.company}
@@ -81,7 +81,7 @@ class WorkAccordionItem extends React.Component {
                                 {this.props.highlights.map(function(highlight) {
                                     return (
                                         <React.Fragment>
-                                            <ul>
+                                            <ul className="App-ul">
                                                 <li>
                                                     <FaDotCircle className="App-icons" />
                                                     {highlight}
