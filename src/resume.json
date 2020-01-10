@@ -174,7 +174,7 @@
             "active": true,
             "name": "Veggie-Burger",
             "url": "http://www.aaronjenkins.xyz/veggie-burger",
-            "description": "A very basic website written entirely in html, but has Continuous Deployment through Github, Amazon CodeDeploy, and Amazon S3 Buckets",
+            "description": "My reviews of local veggie bugers, written in haiku form. A basic website written only in html, but has Continuous Deployment through Github, Amazon CodeDeploy, and Amazon S3 Buckets",
             "githuburl": "https://github.com/aaronjenkins/veggie-burger"
         },
         {

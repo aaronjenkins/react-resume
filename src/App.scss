@@ -40,6 +40,8 @@
     vertical-align: middle;
     padding: 5px;
     display: inline-flex;
+    font-size: 30px;
+
 }
 
 .App-icons-clickable {
@@ -51,14 +53,15 @@
 
 .App-icons-large {
     padding: 15px;
-    font-size: 50px;
-    vertical-align: middle;
-    display: inline-flex;
+    font-size: 75px;
+    //vertical-align: middle;
+    //display: inline-flex;
 
 }
 
 .App-title-with-icon {
     font-size: 50px;
+    line-height: 50px;
     vertical-align: middle;
     padding: 20px;
 }
