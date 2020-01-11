@@ -44,7 +44,7 @@ class App extends Component {
                                     </span>
                                     <span>{'Languages'}</span>
                                 </li>
-                                <List name="Languages" list={data.languages} />
+                                <List list={data.languages} />
                             </ul>
                         </Col>
                         <Col sm>
@@ -55,10 +55,7 @@ class App extends Component {
                                     </span>
                                     <span>{'Technologies'}</span>
                                 </li>
-                                <List
-                                    name="Technologies"
-                                    list={data.technologies}
-                                />
+                                <List list={data.technologies} />
                             </ul>
                         </Col>
                         <Col sm>
@@ -69,7 +66,7 @@ class App extends Component {
                                     </span>
                                     <span>{'Tools'}</span>
                                 </li>
-                                <List name="Tools" list={data.tools} />
+                                <List list={data.tools} />
                             </ul>
                         </Col>
                     </Row>

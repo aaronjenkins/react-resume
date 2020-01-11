@@ -1,6 +1,6 @@
 const React = require('react')
 
-const List = ({ name, list}) => {
+const List = ({list}) => {
     return (
         <React.Fragment>
             <ul className = "App-ul">
