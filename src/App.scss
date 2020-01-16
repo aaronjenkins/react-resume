@@ -4,7 +4,7 @@
 }
 
 .App-column{
-    //display: grid;
+    display: flex;
 }
 
 .App-logo {
@@ -34,13 +34,15 @@
 
 .App-list-title{    
     display: inline-flex;
+    //vertical-align: middle;
+    font-size: 30px;
 }
 
 .App-icons {
     vertical-align: middle;
     padding: 5px;
     display: inline-flex;
-    font-size: 30px;
+    font-size: 25px;
 
 }
 
@@ -54,8 +56,8 @@
 .App-icons-large {
     padding: 15px;
     font-size: 75px;
-    //vertical-align: middle;
-    //display: inline-flex;
+    vertical-align: middle;
+    display: inline-flex;
 
 }
 

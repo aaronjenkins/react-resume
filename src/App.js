@@ -1,5 +1,4 @@
 import './App.scss'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import { Email } from './components/email'
 import { FaBriefcase } from 'react-icons/fa'
 import { FaCode } from 'react-icons/fa'
@@ -36,35 +35,27 @@ class App extends Component {
                 </div>
                 <Container>
                     <Row>
-                        <Col sm>
+                        <Col >
                             <ul className="App-ul">
                                 <li>
-                                    <span>
-                                        <FaCode className="App-icons" />
-                                    </span>
-                                    <span>{'Languages'}</span>
+                                    <span className="App-list-title"> <FaCode className="App-icons"/>{'Languages'}</span>
                                 </li>
                                 <List list={data.languages} />
                             </ul>
                         </Col>
-                        <Col sm>
+                        <Col sm='3'>
                             <ul className="App-ul">
                                 <li>
-                                    <span>
-                                        <FaDraftingCompass className="App-icons" />
-                                    </span>
-                                    <span>{'Technologies'}</span>
+                                    <span className="App-list-title"><FaDraftingCompass className="App-icons" />{'Technologies'}</span>
                                 </li>
                                 <List list={data.technologies} />
                             </ul>
                         </Col>
-                        <Col sm>
+                        <Col sm='3'>
                             <ul className="App-ul">
                                 <li>
-                                    <span>
-                                        <FaToolbox className="App-icons" />
-                                    </span>
-                                    <span>{'Tools'}</span>
+
+                                    <span className="App-list-title"><FaToolbox className="App-icons" />{'Tools'}</span>
                                 </li>
                                 <List list={data.tools} />
                             </ul>
