@@ -9,7 +9,7 @@ import { FaToolbox } from 'react-icons/fa'
 import { GitHub } from './components/github'
 import { LinkedIn } from './components/linkedin'
 import { WorkAccordion } from './components/workaccordion.js'
-import {ProjectsAccordion} from './components/projectsaccordion'
+import { ProjectsAccordion } from './components/projectsaccordion'
 import data from './resume.json'
 import logo from './me.jpg'
 import React, { Component } from 'react'
@@ -64,16 +64,14 @@ class App extends Component {
                         <Col>
                             <span class="App-title-with-icon">
                                 <FaEdit className="App-icons-large" />
-                                Personal Projects
+                                {'Personal Projects'}
                                 <ProjectsAccordion projects={data.projects} />
                             </span>
                         </Col>
-                    </Row>
-                    <Row>
                         <Col>
                             <span class="App-title-with-icon">
                                 <FaBriefcase className="App-icons-large" />
-                                Work History
+                                {'Work History'}
                             </span>
                             <WorkAccordion work={data.work} />
                         </Col>
