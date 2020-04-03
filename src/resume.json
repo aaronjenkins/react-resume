@@ -10,7 +10,7 @@
     },
     "work": [
         {
-            "display": false,
+            "display": true,
             "color": "#2980B9",
             "company": "Ingage Partners",
             "position": "Senior Consultant",
@@ -18,11 +18,11 @@
             "startDate": "July 2019",
             "endDate": "Present",
             "highlights": [
-                "Created applications that set up automation test framework based on API Documentation",
-                "Redefined QA processes in order to increase productivity and close gaps in test coverage",
-                "Developed new testing practices using Mock APIs and On Demand Databases",
+                "Developed tools to automatically create API tests based on API Documentation",
+                "Packaged test projects into Docker containers to be run in CI/CD pipeline",
+                "Earned AWS Associate Developer certification",
                 "Lead team in building new tests for high priority applications that were previously untested",
-                "Organized and Taught 'Lunch & Learn' sessions for the team on Docker & AWS"
+                "Trained team members how to build & deploy applications on AWS using Lambda, S3, & Code Build/Deploy"
             ]
         },
         {
@@ -80,112 +80,70 @@
             "startDate": "Aug 2009",
             "endDate": "May 2014",
             "degree": "Bachelor of Science in Informatics",
-            "summary": "<SUMMARY>",
             "Minors": ["Business", "Marketing"]
         }
     ],
-    "languages": [
-        {
-            "name": "C#"
-        },
-        {
-            "name": "Java"
-        },
-        {
-            "name": "Javascript"
-        },
-        {
-            "name": "Python"
-        },
-        {
-            "name": "SQL"
-        }
-    ],
+    "languages": ["C#", "Java", "Javascript", "Python", "SQL"],
     "technologies": [
-        {
-            "name": "Docker"
-        },
-        {
-            "name": "Git"
-        },
-        {
-            "name": "JUnit"
-        },
-        {
-            "name": "Mocha/Chai"
-        },
-        {
-            "name": "Nightwatch"
-        },
-        {
-            "name": "NUnit"
-        },
-        {
-            "name": "React"
-        },
-        {
-            "name": "Selenium"
-        },
-        {
-            "name": "XUnit"
-        }
+        "AWS",
+        "Azure",
+        "Docker",
+        "JMeter",
+        "JUnit",
+        "Mocha/Chai",
+        "Nightwatch",
+        "NUnit",
+        "React",
+        "Selenium",
+        "VUE",
+        "XUnit",
+        "Webdriver.IO"
     ],
     "tools": [
-        {
-            "name": "AWS"
-        },
-        {
-            "name": "Jira"
-        },
-        {
-            "name": "Microsoft Azure"
-        },
-        {
-            "name": "Microsoft Office"
-        },
-        {
-            "name": "Microsoft TFS"
-        },
-        {
-            "name": "Postman"
-        },
-        {
-            "name": "Saucelabs"
-        },
-        {
-            "name": "Team City"
-        },
-        {
-            "name": "Visual Studio"
-        },
-        {
-            "name": "Visual Studio Code"
-        }
+        "Git",
+        "Jira",
+        "IntelliJ",
+        "Microsoft Office",
+        "Microsoft TFS",
+        "Postman",
+        "Rally",
+        "Saucelabs",
+        "Team City",
+        "Trello",
+        "Visual Studio",
+        "Visual Studio Code"
     ],
     "projects": [
         {
-            "active": true,
+            "display": true,
             "name": "Resume",
             "url": "http://www.aaronjenkins.me/",
             "description": "This website. Built on React. It has Continuous Deployment through Github and Amazon S3 Buckets",
             "githuburl": "https://github.com/aaronjenkins/react-resume"
         },
         {
-            "active": true,
+            "display": true,
             "name": "Veggie-Burger",
             "url": "http://www.aaronjenkins.xyz/veggie-burger",
             "description": "My reviews of local veggie bugers, written in haiku form. A basic website written only in html, but has Continuous Deployment through Github, Amazon CodeDeploy, and Amazon S3 Buckets",
             "githuburl": "https://github.com/aaronjenkins/veggie-burger"
         },
         {
-            "active": false,
+            "display": true,
+            "name": "Deadline",
+            "url": "http://www.aaronjenkins.xyz/deadline",
+            "description": "Sometimes I need to set deadlines for my personal projects to hold myself accountable and I needed to do a show n tell with my team about Webhosting in S3 and Lambda Functions. So i made this simple VUE site that calls a Lambda Function through API Gateway to return a random date between now and 30 days from now.",
+            "githuburl": "https://github.com/aaronjenkins/veggie-burger"
+        },
+        {
+            "display": false,
             "name": "JustSimply.Recipes",
             "url": "http://www.justsimply.recipes",
             "description": "A recipe website with all of my favorite recipes.",
             "githuburl": "https://github.com/aaronjenkins/justsimply.recipes"
         },
         {
-            "active": false,
+            "display": false,
             "name": "Photo Blog",
             "url": "http://www.aaronjenkins.me/",
             "description": "My personal photoblog",

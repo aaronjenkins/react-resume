@@ -64,7 +64,7 @@ class App extends Component {
                         <Col>
                             <span class="App-title-with-icon">
                                 <FaEdit className="App-icons-large" />
-                                Projects
+                                Personal Projects
                                 <ProjectsAccordion projects={data.projects} />
                             </span>
                         </Col>

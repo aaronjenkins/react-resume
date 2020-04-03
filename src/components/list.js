@@ -4,8 +4,8 @@ const List = ({list}) => {
     return (
         <React.Fragment>
             <ul className = "App-ul">
-                {list.map(function(listValue) {
-                    return <li>{listValue.name}</li>
+                {list.map(function(listItem) {
+                    return <li>{listItem}</li>
                 })}
             </ul>
         </React.Fragment>
