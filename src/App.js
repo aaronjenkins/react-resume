@@ -34,24 +34,24 @@ class App extends Component {
                         </header>
                     </div>
                 </div>
-                <Container>
+                <Container fluid="md">
                     <Row>
-                        <Col />
-                        <Col>
+                    <Col />
+                        <Col sm>
                             <span className="App-list-title">
                                 <FaCode className="App-icons" />
                                 {'Languages'}
                             </span>
                             <List list={data.languages} />
                         </Col>
-                        <Col>
+                        <Col sm>
                             <span className="App-list-title">
                                 <FaDraftingCompass className="App-icons" />
                                 {'Technologies'}
                             </span>
                             <List list={data.technologies} />
                         </Col>
-                        <Col>
+                        <Col sm>
                             <span className="App-list-title">
                                 <FaToolbox className="App-icons" />
                                 {'Tools'}
@@ -59,16 +59,17 @@ class App extends Component {
                             <List list={data.tools} />
                         </Col>
                         <Col />
+
                     </Row>
                     <Row>
-                        <Col>
+                        <Col sm>
                             <span class="App-title-with-icon">
                                 <FaEdit className="App-icons-large" />
                                 {'Personal Projects'}
                                 <ProjectsAccordion projects={data.projects} />
                             </span>
                         </Col>
-                        <Col>
+                        <Col sm>
                             <span class="App-title-with-icon">
                                 <FaBriefcase className="App-icons-large" />
                                 {'Work History'}
