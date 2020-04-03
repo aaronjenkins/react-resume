@@ -30,12 +30,14 @@
 
 .App-ul {
     list-style-type: none;
+    align-items: center;
 }
 
-.App-list-title{    
+.App-list-title{   
+    align-items: center;
+ 
     display: inline-flex;
-    //vertical-align: middle;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .App-icons {

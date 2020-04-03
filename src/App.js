@@ -35,51 +35,46 @@ class App extends Component {
                 </div>
                 <Container>
                     <Row>
-                        <Col >
-                            <ul className="App-ul">
-                                <li>
-                                    <span className="App-list-title"> <FaCode className="App-icons"/>{'Languages'}</span>
-                                </li>
-                                <List list={data.languages} />
-                            </ul>
+                        <Col />
+                        <Col>
+                            <span className="App-list-title">
+                                <FaCode className="App-icons" />
+                                {'Languages'}
+                            </span>
+                            <List list={data.languages} />
                         </Col>
-                        <Col sm='3'>
-                            <ul className="App-ul">
-                                <li>
-                                    <span className="App-list-title"><FaDraftingCompass className="App-icons" />{'Technologies'}</span>
-                                </li>
-                                <List list={data.technologies} />
-                            </ul>
+                        <Col>
+                            <span className="App-list-title">
+                                <FaDraftingCompass className="App-icons" />
+                                {'Technologies'}
+                            </span>
+                            <List list={data.technologies} />
                         </Col>
-                        <Col sm='3'>
-                            <ul className="App-ul">
-                                <li>
-
-                                    <span className="App-list-title"><FaToolbox className="App-icons" />{'Tools'}</span>
-                                </li>
-                                <List list={data.tools} />
-                            </ul>
+                        <Col>
+                            <span className="App-list-title">
+                                <FaToolbox className="App-icons" />
+                                {'Tools'}
+                            </span>
+                            <List list={data.tools} />
                         </Col>
+                        <Col />
                     </Row>
                     <Row>
-                        <div>
-                            <span>
-                                <FaEdit className="App-icons-large" />
-                            </span>
-                            <span class="App-title-with-icon">Projects</span>
-                        </div>
-                    </Row>
-                    <Row>
-                        <div>
-                            <span>
-                                <FaBriefcase className="App-icons-large" />
-                            </span>
+                        <Col>
                             <span class="App-title-with-icon">
+                                <FaEdit className="App-icons-large" />
+                                Projects
+                            </span>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <span class="App-title-with-icon">
+                                <FaBriefcase className="App-icons-large" />
                                 Work History
                             </span>
-                        </div>
-
-                        <WorkAccordion work={data.work} />
+                            <WorkAccordion work={data.work} />
+                        </Col>
                     </Row>
                 </Container>
             </React.Fragment>
