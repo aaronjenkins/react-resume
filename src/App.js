@@ -1,4 +1,5 @@
 import './App.scss'
+import { Container, Col, Row } from 'react-bootstrap'
 import { Email } from './components/email'
 import { FaBriefcase } from 'react-icons/fa'
 import { FaCode } from 'react-icons/fa'
@@ -8,10 +9,10 @@ import { FaToolbox } from 'react-icons/fa'
 import { GitHub } from './components/github'
 import { LinkedIn } from './components/linkedin'
 import { WorkAccordion } from './components/workaccordion.js'
+import {ProjectsAccordion} from './components/projectsaccordion'
 import data from './resume.json'
 import logo from './me.jpg'
 import React, { Component } from 'react'
-import { Container, Col, Row } from 'react-bootstrap'
 
 const Name = require('./components/name')
 const List = require('./components/list')
@@ -63,7 +64,8 @@ class App extends Component {
                         <Col>
                             <span class="App-title-with-icon">
                                 <FaEdit className="App-icons-large" />
-                                Projects
+                                Personal Projects
+                                <ProjectsAccordion projects={data.projects} />
                             </span>
                         </Col>
                     </Row>
