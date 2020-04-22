@@ -134,7 +134,7 @@
             "display": true,
             "name": "Deadline",
             "url": "http://www.aaronjenkins.xyz/deadline",
-            "description": "Sometimes I need to set deadlines for my personal projects to hold myself accountable and I needed to do a show n tell with my team about Webhosting in S3 and Lambda Functions. So i made this simple VUE site that calls a Lambda Function through API Gateway to return a random date between now and 30 days from now.",
+            "description": "Sometimes I need to set deadlines for my personal projects to hold myself accountable, and I needed to do a show 'n tell with my team about Webhosting in S3 and Lambda Functions. So I made this simple VUE site that calls a Lambda Function through API Gateway to return a random date between now and 30 days from now.",
             "githuburl": "https://github.com/aaronjenkins/deadline"
         },
         {

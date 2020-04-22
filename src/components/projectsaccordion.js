@@ -2,6 +2,7 @@ import { FaAngleRight } from 'react-icons/fa'
 import { FaGithubSquare } from 'react-icons/fa'
 import { FaGlobe } from 'react-icons/fa'
 import { FaProjectDiagram } from 'react-icons/fa'
+import { FaStickyNote } from 'react-icons/fa'
 const React = require('react')
 
 export class ProjectsAccordion extends React.Component {
@@ -81,13 +82,20 @@ class ProjectsAccordionItem extends React.Component {
                                 </li>
                                 {(() => {
                                     if (this.props.has_diagram === true)
-                                        return <li>
+                                        return (
+                                            <li>
                                                 <FaProjectDiagram className="App-icons" />
-                                                <a href={this.props.diagram}>Project Diagram</a>
-                                                </li>
+                                                <a href={this.props.diagram}>
+                                                    Project Diagram
+                                                </a>
+                                            </li>
+                                        )
                                 })()}
 
-                                <li>{this.props.description}</li>
+                                <li>
+                                    <FaStickyNote className="App-icons" />
+                                    {this.props.description}
+                                </li>
                             </ul>
                         </p>
                     </div>
