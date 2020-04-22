@@ -83,7 +83,7 @@ class ProjectsAccordionItem extends React.Component {
                                     if (this.props.has_diagram === true)
                                         return <li>
                                                 <FaProjectDiagram className="App-icons" />
-                                                <a href={this.props.diagram}> Project Diagram</a>
+                                                <a href={this.props.diagram}>Project Diagram</a>
                                                 </li>
                                 })()}
 
