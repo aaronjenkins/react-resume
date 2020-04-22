@@ -119,7 +119,9 @@
             "name": "Resume",
             "url": "http://www.aaronjenkins.me/",
             "description": "This website. Built on React. It has Continuous Deployment through Github and Amazon S3 Buckets",
-            "githuburl": "https://github.com/aaronjenkins/react-resume"
+            "githuburl": "https://github.com/aaronjenkins/react-resume",
+            "has_diagram": true,
+            "diagram" : "ResumeFlow.svg"
         },
         {
             "display": true,

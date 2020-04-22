@@ -1,5 +1,7 @@
 import { FaAngleRight } from 'react-icons/fa'
 import { FaGithubSquare } from 'react-icons/fa'
+import { FaGlobe } from 'react-icons/fa'
+import { FaProjectDiagram } from 'react-icons/fa'
 const React = require('react')
 
 export class ProjectsAccordion extends React.Component {
@@ -44,7 +46,6 @@ class ProjectsAccordionItem extends React.Component {
             state: { opened },
         } = this
 
-        //if (this.props.ative === true) {
         return (
             <div
                 {...{
@@ -67,16 +68,25 @@ class ProjectsAccordionItem extends React.Component {
                         <p {...{ className: 'accordion-item__paragraph' }}>
                             <ul className="App-ul">
                                 <li>
+                                    <FaGlobe className="App-icons" />
                                     <a href={this.props.url}>
                                         {this.props.url}
                                     </a>
                                 </li>
                                 <li>
-                                    <FaGithubSquare />
+                                    <FaGithubSquare className="App-icons" />
                                     <a href={this.props.githuburl}>
                                         Github Repo
                                     </a>
                                 </li>
+                                {(() => {
+                                    if (this.props.has_diagram === true)
+                                        return <li>
+                                                <FaProjectDiagram className="App-icons" />
+                                                <a href={this.props.diagram}> Project Diagram</a>
+                                                </li>
+                                })()}
+
                                 <li>{this.props.description}</li>
                             </ul>
                         </p>
@@ -84,6 +94,5 @@ class ProjectsAccordionItem extends React.Component {
                 </div>
             </div>
         )
-        //}
     }
 }

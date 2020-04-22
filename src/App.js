@@ -11,7 +11,7 @@ import { LinkedIn } from './components/linkedin'
 import { WorkAccordion } from './components/workaccordion.js'
 import { ProjectsAccordion } from './components/projectsaccordion'
 import data from './resume.json'
-import logo from './me.jpg'
+import logo from './img/me.jpg'
 import React, { Component } from 'react'
 
 const Name = require('./components/name')
