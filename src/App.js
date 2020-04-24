@@ -10,6 +10,7 @@ import { GitHub } from './components/github'
 import { LinkedIn } from './components/linkedin'
 import { WorkAccordion } from './components/workaccordion.js'
 import { ProjectsAccordion } from './components/projectsaccordion'
+import { Resume } from './components/resume.js'
 import data from './resume.json'
 import logo from './img/me.jpg'
 import React, { Component } from 'react'
@@ -30,6 +31,7 @@ class App extends Component {
                             <div>
                                 <GitHub url={data.basics.github} />
                                 <LinkedIn url={data.basics.linkedIn} />
+                                <Resume url="Aaron_Jenkins_Resume.pdf"/>
                             </div>
                         </header>
                     </div>
