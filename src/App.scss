@@ -1,29 +1,20 @@
 
 
 .App {
+    align-items: center;
     bottom: 0;
-    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    justify-content: center;
+    min-height: 100vh;
     text-align: center;
     width: 100%;
 }
 
 .App-column{
     display: flex;
-}
-
-.App-logo {
-    height: 50vmin;
-}
-
-.App-header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    width: 100%;
 }
 
 .App-link {

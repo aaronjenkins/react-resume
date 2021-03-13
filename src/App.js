@@ -22,7 +22,7 @@ class App extends Component {
         return (
             <React.Fragment>
                 <div
-                    className="App-header"
+                    className="App"
                     style={{
                         backgroundImage: `url(${logo})`,
                         backgroundPosition: 'center',
@@ -30,17 +30,15 @@ class App extends Component {
                         backgroundRepeat: 'no-repeat',
                     }}
                 >
-                    <div className="App">
-                        <Container fluid="md">
-                            <Row>
-                                <Col sm>
-                                    <GitHub url={data.basics.github} />
-                                    <LinkedIn url={data.basics.linkedIn} />
-                                    <Email email={data.basics.email} />{' '}
-                                </Col>
-                            </Row>
-                        </Container>
-                    </div>
+                    <Container fluid="md">
+                        <Row>
+                            <Col sm>
+                                <GitHub url={data.basics.github} />
+                                <LinkedIn url={data.basics.linkedIn} />
+                                <Email email={data.basics.email} />{' '}
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
                 {/* <Container fluid="md">
                     <Row>
