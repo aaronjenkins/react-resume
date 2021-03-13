@@ -12,33 +12,39 @@ import { WorkAccordion } from './components/workaccordion.js'
 import { ProjectsAccordion } from './components/projectsaccordion'
 import { Resume } from './components/resume.js'
 import data from './resume.json'
-import logo from './img/me.png'
+import logo from './img/me.svg'
 import React, { Component } from 'react'
 
-const Name = require('./components/name')
 const List = require('./components/list')
 
 class App extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="App-header">
+                <div
+                    className="App-header"
+                    style={{
+                        backgroundImage: `url(${logo})`,
+                        backgroundPosition: 'center',
+                        backgroundSize: 'cover',
+                        backgroundRepeat: 'no-repeat',
+                    }}
+                >
                     <div className="App">
-                        <header className="App-header">
-                            <Name name={data.basics.name} />
-                            <img src={logo} className="App-logo" alt="logo" />
-                            <Email email={data.basics.email} />
-                            <div>
-                                <GitHub url={data.basics.github} />
-                                <LinkedIn url={data.basics.linkedIn} />
-                                <Resume url="Aaron_Jenkins_Resume.pdf"/>
-                            </div>
-                        </header>
+                        <Container fluid="md">
+                            <Row>
+                                <Col sm>
+                                    <GitHub url={data.basics.github} />
+                                    <LinkedIn url={data.basics.linkedIn} />
+                                    <Email email={data.basics.email} />{' '}
+                                </Col>
+                            </Row>
+                        </Container>
                     </div>
                 </div>
-                <Container fluid="md">
+                {/* <Container fluid="md">
                     <Row>
-                    <Col />
+                        <Col />
                         <Col sm>
                             <span className="App-list-title">
                                 <FaCode className="App-icons" />
@@ -61,7 +67,6 @@ class App extends Component {
                             <List list={data.tools} />
                         </Col>
                         <Col />
-
                     </Row>
                     <Row>
                         <Col sm>
@@ -79,7 +84,7 @@ class App extends Component {
                             <WorkAccordion work={data.work} />
                         </Col>
                     </Row>
-                </Container>
+                </Container> */}
             </React.Fragment>
         )
     }
