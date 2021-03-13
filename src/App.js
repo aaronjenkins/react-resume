@@ -12,7 +12,7 @@ import { WorkAccordion } from './components/workaccordion.js'
 import { ProjectsAccordion } from './components/projectsaccordion'
 import { Resume } from './components/resume.js'
 import data from './resume.json'
-import logo from './img/me.jpg'
+import logo from './img/me.png'
 import React, { Component } from 'react'
 
 const Name = require('./components/name')
