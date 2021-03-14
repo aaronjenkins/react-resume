@@ -21,24 +21,12 @@ class App extends Component {
     render() {
         return (
             <React.Fragment>
-                <div
-                    className="App"
-                    style={{
-                        backgroundImage: `url(${logo})`,
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat',
-                    }}
-                >
-                    <Container fluid="md">
-                        <Row>
-                            <Col sm>
-                                <GitHub url={data.basics.github} />
-                                <LinkedIn url={data.basics.linkedIn} />
-                                <Email email={data.basics.email} />{' '}
-                            </Col>
-                        </Row>
-                    </Container>
+                <div className="App">
+                    <div>
+                        <GitHub url={data.basics.github} />
+                        <LinkedIn url={data.basics.linkedIn} />
+                        <Email email={data.basics.email} />
+                    </div>
                 </div>
                 {/* <Container fluid="md">
                     <Row>
